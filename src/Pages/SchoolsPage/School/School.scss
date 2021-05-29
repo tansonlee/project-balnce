@@ -25,14 +25,21 @@
 			margin: 10px 0;
 		}
 		.about {
+			margin-top: 10px;
 		}
 		.location {
 			color: #717273;
 			margin-bottom: 5px;
+			> span {
+				font-weight: 600;
+			}
 		}
 		.admissions {
 			color: #717273;
 			margin-bottom: 5px;
+			> span {
+				font-weight: 600;
+			}
 		}
 	}
 	.buttons {

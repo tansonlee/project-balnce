@@ -41,9 +41,15 @@ const School = school => {
 			{image && <img src={image} alt="school" />}
 			<div>
 				{name && <p className="name">{name}</p>}
-				{location && <p className="location">Location: {formatLocation(location)}</p>}
+				{location && (
+					<p className="location">
+						<span>Location:</span> {formatLocation(location)}
+					</p>
+				)}
 				{admissions && (
-					<p className="admissions">Admissions: {formatAdmissions(admissions)}</p>
+					<p className="admissions">
+						<span>Admissions:</span> {formatAdmissions(admissions)}
+					</p>
 				)}
 				{about && <p className="about">{formatAbout(about)}</p>}
 			</div>

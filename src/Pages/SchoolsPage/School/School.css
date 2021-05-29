@@ -42,14 +42,26 @@
   margin: 10px 0;
 }
 
+.school-wrapper div .about {
+  margin-top: 10px;
+}
+
 .school-wrapper div .location {
   color: #717273;
   margin-bottom: 5px;
 }
 
+.school-wrapper div .location > span {
+  font-weight: 600;
+}
+
 .school-wrapper div .admissions {
   color: #717273;
   margin-bottom: 5px;
+}
+
+.school-wrapper div .admissions > span {
+  font-weight: 600;
 }
 
 .school-wrapper .buttons {
