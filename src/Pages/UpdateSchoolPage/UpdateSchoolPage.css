@@ -1,28 +1,33 @@
-.newschool-wrapper {
+.updateschool-wrapper {
   width: 70vw;
   margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 100px;
 }
 
-.newschool-wrapper .prompt {
+.updateschool-wrapper .prompt {
   font-size: 24px;
   margin-top: 18px;
   margin-bottom: 4px;
 }
 
-.newschool-wrapper .input {
+.updateschool-wrapper .input {
   width: 100%;
   font-size: 18px;
   padding: 4px;
 }
 
-.newschool-wrapper .form-action {
+.updateschool-wrapper .form-action {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.updateschool-wrapper textarea {
+  height: 100px;
 }
 
 #submit {

@@ -2,6 +2,7 @@
 	width: 70vw;
 	margin: 0 auto;
 	margin-top: 40px;
+	margin-bottom: 100px;
 
 	.prompt {
 		font-size: 24px;
@@ -17,6 +18,10 @@
 	.form-action {
 		display: flex;
 		justify-content: center;
+	}
+
+	textarea {
+		height: 100px;
 	}
 }
 

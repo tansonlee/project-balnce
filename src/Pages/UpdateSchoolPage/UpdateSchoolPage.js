@@ -23,7 +23,7 @@ const UpdateSchoolPage = () => {
 	};
 
 	return (
-		<div className="newschool-wrapper">
+		<div className="updateschool-wrapper">
 			<form onSubmit={handleSubmit}>
 				{/* name */}
 				<p className="prompt">School Name</p>
