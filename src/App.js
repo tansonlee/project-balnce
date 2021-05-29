@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SchoolsPage from "./Pages/SchoolsPage/SchoolsPage";
 import NewSchoolPage from "./Pages/NewSchoolPage/NewSchoolPage";
 import UpdateSchoolPage from "./Pages/UpdateSchoolPage/UpdateSchoolPage";
+import ViewPage from "./Pages/ViewPage/ViewPage";
 
 const App = () => {
 	const dispatch = useDispatch();
@@ -29,6 +30,7 @@ const App = () => {
 						<Route path="/" exact component={SchoolsPage} />
 						<Route path="/newschool" component={NewSchoolPage} />
 						<Route path="/updateschool" component={UpdateSchoolPage} />
+						<Route path="/viewschool" component={ViewPage} />
 					</Switch>
 				</div>
 			</Router>

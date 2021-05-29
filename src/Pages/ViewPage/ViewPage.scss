@@ -1,0 +1,33 @@
+.viewpage-wrapper {
+	margin: 0 auto;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70vw;
+	margin-bottom: 100px;
+
+	> h2 {
+		font-size: 40px;
+		font-weight: 500;
+		color: #052470;
+	}
+
+	img {
+		object-fit: cover;
+		width: 40vw;
+		height: 200px;
+	}
+
+	> div {
+		> h3 {
+			margin-top: 20px;
+			font-size: 30px;
+			color: #052470;
+			margin-bottom: 4px;
+		}
+		> p {
+			color: rgb(69, 69, 69);
+		}
+	}
+}

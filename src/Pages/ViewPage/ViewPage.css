@@ -1,0 +1,41 @@
+.viewpage-wrapper {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70vw;
+  margin-bottom: 100px;
+}
+
+.viewpage-wrapper > h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #052470;
+}
+
+.viewpage-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 40vw;
+  height: 200px;
+}
+
+.viewpage-wrapper > div > h3 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #052470;
+  margin-bottom: 4px;
+}
+
+.viewpage-wrapper > div > p {
+  color: #454545;
+}
+/*# sourceMappingURL=ViewPage.css.map */
