@@ -1,4 +1,4 @@
-# Project BALNCE
+# Project BALNCE Front End
 
 Made by Tanson Lee for Dreamschools
 
