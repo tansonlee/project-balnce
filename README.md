@@ -16,6 +16,6 @@ Back end [https://project-balnce.herokuapp.com/](https://project-balnce.herokuap
 
 -   Node.js
 -   Express
--   MongoD
+-   MongoDb
 
-Code for the back end here: 
+Code for the back end here: [https://github.com/tansonlee/project-balnce-backend](https://github.com/tansonlee/project-balnce-backend)
