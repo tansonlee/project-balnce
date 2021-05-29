@@ -1,0 +1,37 @@
+.newschool-wrapper {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.newschool-wrapper .prompt {
+  font-size: 24px;
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+
+.newschool-wrapper .input {
+  width: 100%;
+  font-size: 18px;
+  padding: 4px;
+}
+
+.newschool-wrapper .form-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#submit {
+  width: 140px;
+}
+
+#cancel {
+  width: 140px;
+  background-color: #fc6565;
+  padding: 5px 28px;
+}
+/*# sourceMappingURL=NewSchoolPage.css.map */

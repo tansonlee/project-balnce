@@ -1,0 +1,33 @@
+.schoolspage-wrapper .new-school-button-wrapper {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.schoolspage-wrapper .new-school-button-wrapper .new-school-button {
+  background-color: #ff6663;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 24px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.schoolspage-wrapper .all-schools-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=SchoolsPage.css.map */

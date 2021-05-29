@@ -1,0 +1,42 @@
+.school-wrapper {
+	margin: 30px;
+	border: 2px solid #d3d2d3;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 85vw;
+
+	> img {
+		object-fit: cover;
+		width: 400px;
+		height: 200px;
+
+		margin-right: 20px;
+	}
+	div {
+		max-width: 44vw;
+		.name {
+			font-size: 24px;
+			display: flex;
+			justify-content: center;
+			color: #052470;
+			margin: 10px 0;
+		}
+		.about {
+		}
+		.location {
+			color: #717273;
+			margin-bottom: 5px;
+		}
+		.admissions {
+			color: #717273;
+			margin-bottom: 5px;
+		}
+	}
+	.buttons {
+		display: flex;
+		flex-direction: column;
+	}
+}
